@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="content" style="padding:0px; padding-left:55px;">
+    <div class="sidebar-content">
+        <h1>List of Members</h1>
+        <ul>
+            {% for member in mem_list %}
+            <li id="list"><a href="/members/{{ mem_type }}/{{ loop.index-1 }}" id="list">{{ member.name }}</a></li>
+            {% endfor %}
+        </ul>
+    </div>
+    <div class="sidebar-logo">
+    </div>
+</div>
+{% endblock %}

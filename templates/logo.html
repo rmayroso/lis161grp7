@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="content" style="padding:0px; padding-left:55px;">
+    <div class="sidebar-content">
+        
+        <h1>Official Logo:</h1>
+        <object data="{{ url_for('static', filename='img/logo.png')}}" style="width: 30%;"></object>
+        <br><br>
+        <h1>Official Colors:</h1>
+
+        <ul>
+            <li id="list"><b>Orange:</b> #F79405</li>
+            <li id="list"><b>Blue:</b> #232D74</li>
+            <li id="list"><b>White:</b> #FFFFFF</li>
+
+        </ul>
+    </div>
+    <div class="sidebar-logo">
+    </div>
+</div>
+{% endblock %}

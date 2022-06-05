@@ -1,0 +1,146 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+	box-sizing: border-box;
+} 
+
+html, body {
+	height: 100vh;
+}
+
+body {
+	background-color:#FBFBFB;
+    background-size: cover;
+}
+
+.content {
+    padding: 45px;
+	padding-left:55px;
+}
+
+.zero_pad {
+	padding: 0px;
+}
+
+.navbar {
+	font-family: 'DM Serif Display', serif;
+	font-size: 20px;
+	z-index: 9999;
+}
+
+.navbar-brand {
+	font-size: 30px;
+}
+
+h1 {
+    color: #232D74;
+	font-family: 'DM Serif Display', serif;
+}
+
+h2, h4 {
+    color:black;
+}
+
+h2 {
+	font-weight: 700;
+	color:#F79405;
+}
+
+h4 {
+	font-family: 'Nunito Sans', sans-serif;
+	font-weight: 700;
+}
+
+p {
+    color:#595959;
+	font-family: 'Nunito Sans', sans-serif;
+}
+
+#welc {
+    color:#232D74;
+	font-family: 'Nunito Sans', sans-serif;
+	font-weight: 700;
+	font-size: 17px;
+	text-align: center;
+	position: relative;
+	top: 15px;
+}
+
+.header {
+	background: url("/static/img/logobg.png") no-repeat center center;
+	background-size: cover;
+	height: 100vh;
+}
+
+#list {
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 20px;
+	color: #262626;
+	text-decoration:none;
+}
+
+#list:hover {
+	text-decoration: underline #F79405 2.5px;
+	transition-duration: 0.4s;
+}
+
+.nav-link:hover {
+	text-decoration: underline #232D74;
+}
+
+.profile {
+	position: relative;
+	top: 20px;
+	width: 80%;
+}
+
+.profile-whole {
+    position: absolute;
+    top: 52%;
+    transform: translate(0, -50%);	
+}
+
+.sidebar-content {
+    position: absolute;
+	width: 50%;
+    top: 52%;
+    transform: translate(10%, -50%);	
+}
+
+.sidebar-logo {
+	background: url("/static/img/logosidebar.png") no-repeat center center;
+	background-size: cover;
+	height: 90vh;
+	position: absolute;
+	right: 0px;
+    width: 50%;
+	filter: brightness(95%);
+}
+
+.button {
+	background-color: #232D74;
+	color: white;
+	height: 50px;
+	position: relative;
+	top: 45px;
+	display: inline-block;
+	padding: 10px;
+	padding-bottom: 0px;
+}
+  
+.button:hover {
+	background-color: #F79405;
+	color: white;
+	transition-duration: 0.4s;
+}
+
+#button {
+	font-size: 20px;
+	color: white;
+	font-family: 'DM Serif Display', serif;
+}

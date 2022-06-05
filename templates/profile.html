@@ -1,0 +1,50 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="content">
+    <div class="profile-whole">
+
+        <div class="profile-sidebar">
+            <h1>{{ mem_profile.name }}</h1>
+            <h2>{{ mem_profile.role }}</h2>
+        </div>
+
+        <div class="profile">    
+            <div class="list-group">
+                <div class="list-group-item">
+                    <div class="d-flex w-100 justify-content-between">
+                    <h4 class="mb-1">Member Number</h5>
+                    </div>
+                    <p class="mb-1">{{ mem_profile.number }}</p>
+                </div>
+                <div class="list-group-item">
+                    <div class="d-flex w-100 justify-content-between">
+                    <h4 class="mb-1">Profile</h5>
+                    </div>
+                    <p class="mb-1">{{ mem_profile.bio }}</p>
+                </div>
+                <div class="list-group-item">
+                    <div class="d-flex w-100 justify-content-between">
+                    <h4 class="mb-1">Course</h5>
+                    </div>
+                    <p class="mb-1">{{ mem_profile.course }}</p>
+                    <small class="text-muted">Year Level: {{ mem_profile.year }}</small>
+                </div>
+                <div class="list-group-item">
+                    <div class="d-flex w-100 justify-content-between">
+                    <h4 class="mb-1">Contact</h5>
+                    </div>
+                    <p class="mb-1">Email: {{ mem_profile.email }}</p>
+                    <p class="mb-1">Facebook: <a href="{{ mem_profile.fblink }}">{{ mem_profile.fblink }}</a></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="button">
+            <a href="/members/admin" style="text-decoration:none;"><p id="button">Return to Member List</p></a>
+        </div>
+
+    </div>
+
+</div>
+{% endblock %}
