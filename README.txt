@@ -1,10 +1,16 @@
-This system was created in partial fulfillment of the requirements in LIS 161: Information and Communications Technology in LIS II, a course in UP Diliman taught by Sir Paul Jason Perez 
+DOCUMENTATION: https://drive.google.com/drive/folders/17Eaqh4IWC_QFdjGw3qJNDTcmny3N3CRy?usp=sharing
 
-Contributors:
+UP School of Library and Information Studies
+
+In partial fulfillment of the requirements in LIS 161:
+Information Communications and Technology in LIS II
+School Year 2021-2022, 2nd Semester
 
 Group 7
-AYROSO, Rochelle 
-CALIXTRO, Jolly
-ROMBAON, Sammy
+Ayroso, Rochelle
+Calixtro, Jolly
+Rombaon, Sammy
 
-
+Submitted to:
+Prof. Paul Jason Perez
+Asst. Professor, UP SLIS
